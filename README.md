@@ -1,6 +1,8 @@
 # vue-paper-dashboard-typescript
 
 > A Vue.js project with TypeScript support
+>
+> This project was scaffolded using `vue init cristijora/vue-paper-dashboard-cli` command and added TypeScript support on top of it. By using `--allowJs` compiler option we didn't need to modify the original `.js` files.
 
 ## Build Setup
 

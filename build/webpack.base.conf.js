@@ -29,7 +29,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(ts|vue)$/,
+        test: /\.(js|ts|vue)$/,
         loader: 'tslint-loader',
         enforce: 'pre',
         include: [resolve('src'), resolve('test')],

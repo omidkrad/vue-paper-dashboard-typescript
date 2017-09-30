@@ -6,7 +6,7 @@ import GlobalComponents from './globalComponents'
 import GlobalDirectives from './globalDirectives'
 import Notifications from './components/UIComponents/NotificationPlugin'
 import SideBar from './components/UIComponents/SidebarPlugin'
-import App from './App'
+import App from './App.vue'
 
 // router setup
 import routes from './routes/routes'
@@ -33,7 +33,7 @@ const router = new VueRouter({
 // global library setup
 Object.defineProperty(Vue.prototype, '$Chartist', {
   get () {
-    return this.$root.Chartist
+    return (<any>this).$root.Chartist
   }
 })
 
